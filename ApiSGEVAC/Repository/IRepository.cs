@@ -4,7 +4,7 @@ using System.Linq.Expressions;
 
 namespace ApiSGEVAC.Repository
 {
-    public interface IRepositoryBase<T> where T : class 
+    public interface IRepository<T> where T : class 
     {
         T GetById(int id);
         IEnumerable<T> List();        

@@ -3,7 +3,7 @@ using ApiSGEVAC.Data;
 
 namespace ApiSGEVAC.Repository
 {
-    public class CargoRepository : RepositoryBase<Cargo>, ICargoRepository
+    public class CargoRepository : Repository<Cargo>, ICargoRepository
     {
         public CargoRepository(ApplicationDbContext dbContext) : base(dbContext)
         {
